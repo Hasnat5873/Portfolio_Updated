@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+      <header class="header">
+  <div class="logo">Hasnat</div>
+  <div class="nav-controls">
+  <span class="search-toggle" onclick="toggleSearch()">🔍 Search</span>
+  <input type="text" id="searchBox" class="search-box" placeholder="Search sections..." onkeyup="searchSection()" />
+<ul id="sectionList" class="section-list">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#work">Work</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+    <span class="menu-toggle" id="menuToggle">☰ Menu</span>
+  </div>
+</header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+      <section class="hero">
+        <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div >
+        <h1>This is <br><span class="home__title-color">SM Shakibur Hasnat</span></h1>
+    <p class="paragraph">
+      I'm passionate researcher with a focused building clean ,<br> responsive and engaging digital experiences
+    </p>
+    </div>
+       
+  <div>
+     <hr class="home-divider" />
+     <div class="home_port">
+       
+       <p>Portfolio</p>
+      <p>This is my portfolio website where you find all the works of mine which <br> show my passion for web engineering.</p>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- Menu Overlay -->
+<div class="menu-overlay" id="menuOverlay">
+  <button class="menu-close" id="menuClose">×</button>
+  <div class="menu-content">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">My-Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/shakib.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am SM Shakibur Hasnat</h2>
+                        <p class="about__text">  I’m SM Shakibur Hasnat — an enthusiastic and curious learner with a strong passion for computer science, especially in areas like machine learning, web engineering, and software development.
+I enjoy breaking down complex problems into simple, practical solutions and always strive to improve my skills. I’m very comfortable working with Python, JavaScript, Pygame, Flutter, and AI algorithms.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+
+  <section class="work section" id="work">
+    <div class="work-section">
+  <h2 class="work-title">My Work</h2>
+  <p class="work-intro">
+    Since starting my journey in 2025, I have been pushing innovations in web Engineering and technology into the future.
+  </p>
+  
+</div>
+ <hr>
+
+    <div class="work__container bd-grid">
+        <div class="work__item">
+            <h3 class="work__subtitle">Calculator</h3>
+            <a href="https://github.com/Hasnat5873/CalculatorP" class="work__img">
+                <img src="assets/img/photo_6255514142165288501_x.jpg" alt="Calculator Project" class="work__img">
+            </a>
+            <p class="work__description"></p> Calculator<br>Developed in 2022, this was my first significant project where I created a simple yet functional calculator application. Utilizing HTML5, CSS3, and JavaScript, I focused on building a user-friendly interface and implementing core arithmetic operations. This project laid the foundation for my understanding of front-end development and problem-solving through code, marking the beginning of my journey into web engineering.</p>
+        </div>
+        <div class="work__item">
+            <h3 class="work__subtitle">Wedding Form</h3>
+            <a href="https://github.com/Hasnat5873/Biodata-HTML-CSS-" class="work__img">
+                <img src="assets/img/21935163_6433982.jpg" alt="Calendar Project" class="work__img">
+            </a>
+            <p class="work__description">Wedding app<br>Currently under development in 2025, this responsive wedding-app showcases my evolving skills in modern web technologies. Built with HTML5, CSS3, and JavaScript, it features dynamic date management, event scheduling, and a sleek, mobile-friendly design. This ongoing project reflects my commitment to creating practical tools that enhance user productivity while continuously refining my expertise in responsive design and interactivity.</p>
+        </div>
+    </div>
+    <a href="https://github.com/ChrabonDey" class="work__explore">Explore more of my work</a>
+</section>
+
+
+
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">Profesional Skills</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Machine Learning</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work5.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+
+               <section class="portfolio" id="portfolio">
+  <div class="portfolio__overlay">
+    <div class="portfolio__content">
+      <h2 class="portfolio__title">My Portfolio</h2>
+      <p class="portfolio__description">
+        Here are some of the projects I’ve worked on — from dynamic websites to responsive web applications.
+      </p>
+      <!-- You can add project cards or links here -->
+    </div>
+  </div>
+</section>
+
+
+          
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <section class="related-topics">
+  <div class="related-container">
+    <div class="related-heading">
+      <p class="related-subtitle">In Future</p>
+      <h2 class="related-title">I Work On</h2>
+    </div>
+    <ul class="related-list">
+      <li>Machine Learning</li>
+      <li>AI Engineering</li>
+      <li>Devops</li>
+    </ul>
+  </div>
+</section>
+
+       
+        <footer class="footer">
+            <p class="footer__title">Hasnat</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
